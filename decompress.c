@@ -20,7 +20,7 @@ int main(int argc, char** argv) {
     }
     char* infile = argv[1];
     char* outfile = argv[2];
-    Arena arena = arena_init(1000000);
+    Arena arena = arena_init(1000000000);
     FILE* in = fopen(infile, "rb");
     BitReaderUserdata reader_data = {
         .f = in,

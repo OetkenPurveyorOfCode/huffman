@@ -31,7 +31,7 @@ int main(int argc, char** argv) {
     }
     char* infile = argv[1];
     char* outfile = argv[2];
-    Arena arena = arena_init(1000000);
+    Arena arena = arena_init(1000000000);
     size_t msg_len = 0;
     char* msg = readfile(&arena, infile, &msg_len); 
     if (errno != 0) perror("File read failed\n");

@@ -3,6 +3,9 @@
 
 ## Build
 
+Invoke `build.bat` or `build.sh`.
+
+Manual:
 ```sh
 gcc compress.c -o compress.exe
 gcc decompress.c -o decompress.exe
