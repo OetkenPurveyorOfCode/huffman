@@ -1,7 +1,8 @@
 #define _CRT_SECURE_NO_WARNINGS (1)
 #include <stdio.h>
+#include <stddef.h>
 #define ARENA_IMPLEMENTATION
-#define ARENA_BACKEND_VIRTUALALLOC
+#define ARENA_BACKEND_MALLOC
 #include "arena.h"
 #include <stdint.h>
 #include <errno.h>

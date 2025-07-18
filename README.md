@@ -10,11 +10,11 @@ gcc decompress.c -o decompress.exe
 
 ## Usage Example
 
-To compress a file `main.c` to a compressed `main.c.z`:
+To compress a file `huffman.h` to a compressed `huffman.z`:
 ```sh
-compress.exe main.c main.c.z
+compress.exe huffman.h huffman.z
 ```
-To decompress a compressed file `main.c.z` to an uncompressed file `main_recovered.c`:
+To decompress a compressed file `huffman.z` to an uncompressed file `recovered.h`:
 ```sh
-decompress.exe main.c.z main_recovered.c
+decompress.exe huffman.z recovered.h
 ```
